@@ -74,11 +74,12 @@
 }
 
 .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
-  padding: 4rem 0;
+  padding: 4rem;
+}
+
+.center div {
+  padding: 2rem;
 }
 
 .center::before {
@@ -148,7 +149,7 @@
   }
 
   .center {
-    padding: 8rem 0 6rem;
+    padding: 8rem 6rem;
   }
 
   .center::before {
